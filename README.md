@@ -1,8 +1,34 @@
-# React + Vite
+# MovieBox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a react application that allow users to view the top 10 popular movies, search for any movie and also to view each particular movie for more details about the movie
 
-Currently, two official plugins are available:
+# Getting started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this application, you will to install node js and npm if you dont have them installed already
+
+- clone this repository: ```git clone https://github.com/Sosaristic/hng-task2.git```
+- navigate to the project directory: ``` cd hng-task-2```
+- run this command: ```npm install```
+- create a .env file in the root of the application and add your TMBD key as VITE_API_KEY = <your_api_key>
+- start the development server: ```npm run dev```
+  if everything goes well, the application will be running on http://localhost:3157.
+
+# How to use
+
+- On the hompage a list of top 10 popular movies should be displayed
+- click on individual movie card to navigate to a movie page to see more details about the movie
+  searching for a movie
+- In the search box type in the querystring of the movie and wait for a result
+- You can click on the search result card to navigate to the movie page to view more details
+
+# screenshots
+
+![Screenshot](./screenshots/hero.png)
+![Screenshot](./screenshots/cards.png)
+![Screenshot](./screenshots/cards2.png)
+![Screenshot](./screenshots/search.png)
+![Screenshot](./screenshots/movie-page.png)
+
+# Credits
+
+This project was created by ander_dev. it uses the Movie database (TMDB) api to retrieve movies data
