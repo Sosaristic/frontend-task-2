@@ -21,13 +21,7 @@ To run this application, you will to install node js and npm if you dont have th
 - In the search box type in the querystring of the movie and wait for a result
 - You can click on the search result card to navigate to the movie page to view more details
 
-# screenshots
 
-![Screenshot](./screenshots/hero.png)
-![Screenshot](./screenshots/cards.png)
-![Screenshot](./screenshots/cards2.png)
-![Screenshot](./screenshots/search.png)
-![Screenshot](./screenshots/movie-page.png)
 
 # Credits
 
